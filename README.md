@@ -1,6 +1,11 @@
 # SIGNAL / SPLIT
 **Two ends. One focus.** Original 75-second precision arcade instrument for event booths.
 
+Play the public preview: https://piyellowclaw.github.io/signal-split/
+Source: https://github.com/piyellowclaw/signal-split
+
+Preview status: independent review and competition-tooling evidence are in progress. This is not a claim of eligibility, official endorsement, or completed contest submission.
+
 Rotate a two-ended receiver to catch incoming circle/diamond pairs at the inner ring. Circle matches circle; diamond matches diamond. Perfect alignment earns 150 points, ordinary link 90. Every five consecutive catches raises the multiplier (max ×4); a miss resets it. Fixed circuit: 31 pairs, three tempo stages, same opportunity for every player.
 
 ## Play / build
