@@ -1,0 +1,55 @@
+{
+  "commit": "66d336cb51e3114a1433d655cb519e1bb2cb3725",
+  "verifiedAt": "2026-11-18T21:58:39.277091+00:00",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "mime": "text/html; charset=utf-8",
+      "bytes": 4382,
+      "sha256": "f9fbae3caa7377cf713161d473a95a46053c12807ce158ae14e79ba0ce218943",
+      "matches": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "bytes": 7423,
+      "sha256": "2027ba49f8dc7107d22fc58e6f3a617721948c01be7f786ede3f2c10c01c345d",
+      "matches": true
+    },
+    {
+      "path": "src/app.js",
+      "status": 200,
+      "mime": "application/javascript; charset=utf-8",
+      "bytes": 11449,
+      "sha256": "cb5a50033dabf58a666334dbd9d1cbbc40a192c0d484c2c688585d208b375942",
+      "matches": true
+    },
+    {
+      "path": "src/engine.js",
+      "status": 200,
+      "mime": "application/javascript; charset=utf-8",
+      "bytes": 2161,
+      "sha256": "dea7c7b12857da67fc69a4abe296c77e1fd4d086a02ee3c42ecf1172a7adf362",
+      "matches": true
+    },
+    {
+      "path": "LICENSE",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "bytes": 1082,
+      "sha256": "e5bfc566aa4c5b945f1c9488e6e1384dc283cc2afc7133fa7f70b2c423c18f3e",
+      "matches": true
+    },
+    {
+      "path": "evidence/demo-final/signal-split-real-demo.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 7431861,
+      "sha256": "d3b7893d5b60715c703f671b3dcaf52c43f81ba232bc2e94c220703105e2656d",
+      "matches": true
+    }
+  ],
+  "pagesRun": "44406852354"
+}
