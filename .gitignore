@@ -1,1 +1,13 @@
 .DS_Store
+# Local recording intermediates and frozen private capture copies
+evidence/demo/frames/
+evidence/demo-build/
+evidence/demo-archive*/
+scripts/capture-browsers/
+
+# Superseded and private recording artifacts
+evidence/demo/
+evidence/demo-final-build/
+evidence/demo-capture-status.md
+evidence/demo-final/frames/
+evidence/demo-final/encoder.log

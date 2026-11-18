@@ -4,7 +4,7 @@
 Play the public preview: https://piyellowclaw.github.io/signal-split/
 Source: https://github.com/piyellowclaw/signal-split
 
-Preview status: independent review and competition-tooling evidence are in progress. This is not a claim of eligibility, official endorsement, or completed contest submission.
+Preview status: independent game review and focus-safety regression passed. Competition-tooling evidence and formal entry remain pending. This is not a claim of eligibility, official endorsement, or completed contest submission.
 
 Rotate a two-ended receiver to catch incoming circle/diamond pairs at the inner ring. Circle matches circle; diamond matches diamond. Perfect alignment earns 150 points, ordinary link 90. Every five consecutive catches raises the multiplier (max ×4); a miss resets it. Fixed circuit: 31 pairs, three tempo stages, same opportunity for every player.
 
@@ -21,7 +21,7 @@ Open http://127.0.0.1:4173. Alternatively use Python 3: `python3 -m http.server 
 Mouse: aim around center; click flips ends. Keyboard: arrows or A/D rotate; Space flips; P/Escape pauses when arena focused. Touch: tap/drag aims (no tap flip). Tab/Enter operate menus. Start focuses arena; end focuses Next operator. Sound off by default; low motion initially follows OS preference; contrast option and shape coding supplement color. Spatial tracking remains visual: not a fully nonvisual game or scientifically validated trainer.
 
 ## Booth operation
-Run local server; keep browser on same origin. Open `?board` in another window of the **same profile and origin** for second-display live scores; this is not cross-device/LAN sync. Play, optionally save a ten-character callsign, then Next operator. Time/score/chain/waves reset; settings and top ten persist. Changing tabs pauses; Resume required. Round is 75 active seconds, not including pauses. Clearing this site’s browser data resets board/settings. Blocked storage falls back to in-memory scores with notice. No personal information needed. Callsigns are filtered/text-rendered; scores are friendly local competition, not tamper-proof rankings.
+Run local server; keep browser on same origin. Open `?board` in another window of the **same profile and origin** for second-display live scores; this is not cross-device/LAN sync. Play, optionally save a ten-character callsign, then Next operator. Time/score/chain/waves reset; settings and top ten persist. Changing tabs or moving keyboard focus away from the arena pauses and clears held steering; explicit Resume returns focus to the arena. One scoring operator at a time is intended; concurrent saves are not atomic. Round is 75 active seconds, not including pauses. Clearing this site’s browser data resets board/settings. Blocked storage falls back to in-memory scores with notice. No personal information needed. Callsigns are filtered/text-rendered; scores are friendly local competition, not tamper-proof rankings.
 
 ## Architecture
 - src/engine.js: seeded schedule, circular angle errors, scoring, bounded step, board validation. Pure logic.

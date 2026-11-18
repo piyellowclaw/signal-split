@@ -23,3 +23,6 @@
 
 ## Remaining coordinator gates
 Independent code/product review; actual JetBrains project work and evidence; public repository/license/readme verification; judge-accessible deployed build; <=3min real full-UI video + public YouTube URL; legal entrant/account/email eligibility and final Devpost receipt. Broader human usability, Safari/Firefox, true touch hardware, screen-reader experience and blocked-storage browser behavior are not claimed as tested.
+
+## Independent focus-safety regression
+Independent source/browser review found a medium keyboard focus-departure defect. Fixed by pausing on arena blur while preserving Tab destination and clearing held keys. Actual Tab/Shift+Tab, held-key departure with frozen time/angle, explicit Resume restoring arena, 20 focus cycles, pointer/flip, synthetic touch and P pause/resume passed; zero browser errors. Synthetic input is not human/hardware usability testing. Final engine tests remain7 pass/2,026 assertions; build and diff whitespace checks pass. Final recorded video is source-hash matched; see docs/DEMO.md.

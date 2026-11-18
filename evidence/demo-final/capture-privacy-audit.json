@@ -1,0 +1,13 @@
+{
+  "files": [
+    "scripts/capture-review.js",
+    "scripts/capture-demo.js",
+    "scripts/capture-finalize.js",
+    "scripts/capture-encode.sh",
+    "scripts/capture-verify.js",
+    "scripts/capture-console.js"
+  ],
+  "privatePathOrIdentifierFlags": [],
+  "configuration": "External optional tools selected through environment variables; no browser profile attachment or credentials.",
+  "scope": "Manual source review plus bounded pattern scan; not a guarantee of every possible secret format."
+}

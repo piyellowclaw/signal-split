@@ -1,0 +1,43 @@
+{
+  "duration": 103.6,
+  "width": 1440,
+  "height": 960,
+  "bytes": 7431861,
+  "sha256": "d3b7893d5b60715c703f671b3dcaf52c43f81ba232bc2e94c220703105e2656d",
+  "samples": [
+    {
+      "time": 3,
+      "name": "decoded-003s.png"
+    },
+    {
+      "time": 23,
+      "name": "decoded-023s.png"
+    },
+    {
+      "time": 57,
+      "name": "decoded-057s.png"
+    },
+    {
+      "time": 84,
+      "name": "decoded-084s.png"
+    },
+    {
+      "time": 89,
+      "name": "decoded-089s.png"
+    },
+    {
+      "time": 92,
+      "name": "decoded-092s.png"
+    },
+    {
+      "time": 96,
+      "name": "decoded-096s.png"
+    },
+    {
+      "time": 101,
+      "name": "decoded-101s.png"
+    }
+  ],
+  "decoded": true,
+  "withinThreeMinutes": true
+}
