@@ -1,0 +1,4 @@
+# Provenance
+Newly authored 2026-11-19 for this entry with disclosed AI assistance. All source/copy/UI and Canvas2D artwork are original generated code. Grid, optical rings, receiver and feedback shapes are procedural vectors. Short sine tones are locally synthesized via Web Audio, not samples. No downloaded images, video, sounds, music, fonts, sponsor logos, Riot assets or stock/template game code. Arial/Helvetica/Georgia system fonts referenced, not redistributed.
+
+MIT for intended project source/art-code/docs; root LICENSE. Zero third-party runtime/dev packages. Existing Bun is a separately licensed local tool, not bundled. Phaser MIT license inspected for library preflight, not incorporated. No trademark affiliation implied. Cloud9/JetBrains are submission context only, not art assets. No guarantee of legal uniqueness; independently chosen concept, not copied from a known game.

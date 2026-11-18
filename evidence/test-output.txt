@@ -1,0 +1,15 @@
+bun test v1.4.4-canary.1 (191755ec1)
+
+tests/engine.test.js:
+(pass) same circuit for every operator, bounded duration [0.16ms]
+(pass) angular wrap and shape polarity [0.04ms]
+(pass) precision, tolerance and capped chain multiplier [0.01ms]
+(pass) no double judging; negative and huge delta bounded [0.10ms]
+(pass) full skilled round scores all waves and ends, frozen thereafter [1.54ms]
+(pass) 1000 full resets isolate state and stay reliable [35.41ms]
+(pass) untrusted board is sanitized, sorted and bounded [0.21ms]
+
+ 7 pass
+ 0 fail
+ 2026 expect() calls
+Ran 7 tests across 1 file. [44.00ms]
